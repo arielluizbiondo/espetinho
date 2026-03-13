@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/cadastrar.css">
+    <title>Cadastrando Espetinhos</title>
+</head>
+<body>
+        <nav class="nav">
+            <ul class="nav-ul">
+                <img src="" class="logo-cabeçalho">
+                <li>
+                    <a href="../../view/HTML/index.php">PREÇOS</a>
+                </li>
+                <li>
+                    <a href="#">CADASTRAR</a>
+                </li>
+                <li>
+                    <a href="../HTML/Formatar.html">FORMATAR</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
+            <br><br>
+            <h1>Cadastro de espetos:</h1>
+            <form action="../../model/desingPatterns/Cadastro.php"  method="post">
+                <div class="form-group">
+                    <label for="titulo">Nome:</label>
+                    <input type="text" class="form-control" id="titulo" name="nomeEspeto" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="descricao">Descrição:</label>
+                    <textarea class="form-control" id="descricao" name="descricao" rows="4"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="valor">Preço do espeto:</label>
+                    <input type="number" class="form-control" id="valor" name="valor" step="0.01">
+                </div>
+                <div class="form-group">
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" class="form-control" id="quantidade" name="quantidade">
+                </div>
+                <div class="form-group">
+                    <label for="foto">Foto:</label>
+                    <input type="file" class="form-control" id="foto" name="foto">
+                </div>
+                <center><button type="submit" name="cadastrar" class="btn btn-primary">Cadastrar</button></center>
+            </form>
+            <br><br>
+        </div>
+            <br><br>
+        </div>
+</body>
+</html>
