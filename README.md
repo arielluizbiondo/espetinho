@@ -1,4 +1,4 @@
-# 🍢 Venda de Espetinhos - Projeto
+# Venda de Espetinhos - Projeto
 
 Sistema simples de **venda e cadastro de espetinhos** desenvolvido com **PHP, MySQL e Bootstrap** para fins de estudo em desenvolvimento web.
 
