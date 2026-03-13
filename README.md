@@ -17,7 +17,7 @@ O projeto permite **cadastrar espetinhos, visualizar produtos, realizar compras 
 
 ## 🛠 Tecnologias utilizadas
 
-### 🎨 Front-end
+### Front-end
 
 <p>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40"/>
@@ -25,13 +25,13 @@ O projeto permite **cadastrar espetinhos, visualizar produtos, realizar compras 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40"/>
 </p>
 
-### ⚙️ Back-end
+### Back-end
 
 <p>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40"/>
 </p>
 
-### 🗄 Banco de Dados
+### Banco de Dados
 
 <p>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40"/>
